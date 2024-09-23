@@ -1,0 +1,154 @@
+a{
+text-decoration: overline;
+}
+
+#navbar{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+h2{
+font-size: x-large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbar h5{
+font-size: 103px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bolder;
+text-align:justify;
+}
+
+#navbar div a{
+margin-right; 15px;
+}
+body{
+background-repeat: repeat;
+background-image: url()https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fbiography%2FCate-Blanchett&psig=AOvVaw2s8Xbul7ggDOqmRn7wf4CA&ust=1727167610444000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPis2_bW2IgDFQAAAAAdAAAAABAE;
+}
+/*education section*/
+.educatio section{
+padding:60px 40px;
+background-color:#fefefe;
+}
+
+.education-timeline{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education-item{
+    backgroung-color:#f9f9f9;
+    border-left: 5px solid#4caf50;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.education-item{
+    font-size: 1rem;
+   margin-bottom: 5px;
+}
+
+.institution{
+    font-style: italic;
+    color:#b04beb;
+}
+
+.year{
+    font-size: 0.9rem;
+    color: #68f8f8;
+}
+
+.education-item p {
+    margin-top: 10px;
+    line-height: 1.6;
+    color:#cf54ee;
+}
+
+/*landing*/
+.landing{
+    display: grid;
+    grid-template-columns:auto auto;
+    height: 100vh;
+    width: 90vw;
+    margin: auto;
+    align-items:center;
+    justify-content: space-around;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: aqua;
+    text-decoration-color: aqua;
+    text-justify: auto;
+}
+
+/*navbar*/
+#navbar{
+    padding: 10px;
+    width: 90vw;
+    margin: auto;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+
+}
+
+
+#navbar div a{
+    font-family: fantasy;
+    margin-right: 15px;
+}
+/*footer*/
+.footer{
+    background-color: rgb(221,40,197);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.contact-text a{
+    color: #f19eed;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.contact-text a:hover{
+    color: #2ecc8f;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*navbar*/
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: flex-start;
+}
+.texta:hover{
+    color: hotpink;
+}
+a{
+    text-decoration: none;
+    color: rgb(233,106,191);
+}
+
